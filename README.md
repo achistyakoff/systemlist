@@ -61,16 +61,16 @@ To create a record using Postman, you can send a POST request to your backend se
 
 Here's an example JSON payload:
 
-    ```json
-    {
-        "hostname": "example-server",
-        "environment": "production",
-        "solution": "web",
-        "system": "Linux",
-        "os": "Ubuntu",
-        "tags": ["tag1", "tag2"]
-    }
-    ```
+```json
+{
+    "hostname": "example-server",
+    "environment": "production",
+    "solution": "web",
+    "system": "Linux",
+    "os": "Ubuntu",
+    "tags": ["tag1", "tag2"]
+}
+```
 
     Send the request by clicking the "Send" button in Postman.
 
