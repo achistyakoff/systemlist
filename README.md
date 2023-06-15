@@ -72,8 +72,7 @@ Here's an example JSON payload:
 }
 ```
 
-    Send the request by clicking the "Send" button in Postman.
-
+Send the request by clicking the "Send" button in Postman.
 Ensure that your backend server's API endpoint is correctly configured to handle POST requests and process the JSON payload to create the record in the database.
 
 
