@@ -49,6 +49,34 @@ Refer to the API documentation for more details on request/response formats and 
 | os          | Operating system of the server |
 | tags        | Tags associated with the server |
 
+## Examples
+
+To create a record using Postman, you can send a POST request to your backend server's API endpoint. Here's an example of how you can structure the request in Postman:
+
+    Open Postman and create a new request.
+    Set the HTTP method to POST.
+    Enter the URL of your backend server's API endpoint where the record creation is handled (e.g., http://localhost:8000/servers).
+    Add the necessary headers, such as Content-Type: application/json, to indicate that you're sending JSON data.
+    In the request body, provide the JSON payload for the record you want to create. The payload should include the required data fields such as hostname, environment, solution, system, os, and tags.
+
+Here's an example JSON payload:
+
+    ```json
+    {
+        "hostname": "example-server",
+        "environment": "production",
+        "solution": "web",
+        "system": "Linux",
+        "os": "Ubuntu",
+        "tags": ["tag1", "tag2"]
+    }
+    ```
+
+    Send the request by clicking the "Send" button in Postman.
+
+Ensure that your backend server's API endpoint is correctly configured to handle POST requests and process the JSON payload to create the record in the database.
+
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
