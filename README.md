@@ -20,7 +20,8 @@ Before running the server, make sure to configure the following environment vari
 ### Start
 
 To start the backend server, run the following command:
-    `docker run -e DB_HOST="hostname_of_the_database_server" -e DB_PORT="port_of_the_database_server" -e DB_USER="username" -e DB_NAME="databade_name" -e DB_PASSWORD="db_password" -p 8000:8000 chistyakoff/systemlist:1.0`
+
+    docker run -e DB_HOST="hostname_of_the_database_server" -e DB_PORT="port_of_the_database_server" -e DB_USER="username" -e DB_NAME="databade_name" -e DB_PASSWORD="db_password" -p 8000:8000 chistyakoff/systemlist:1.0
 
 ### Usage
 
