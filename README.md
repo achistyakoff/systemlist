@@ -38,6 +38,17 @@ The server will start running on port 8000 by default. You can access the API en
 
 Refer to the API documentation for more details on request/response formats and parameters.
 
+## Environment Variables
+
+| Variable    | Description                  |
+|-------------|------------------------------|
+| hostname    | Hostname of the server       |
+| environment | Server environment           |
+| solution    | Solution the server belongs to |
+| system      | System the server runs on    |
+| os          | Operating system of the server |
+| tags        | Tags associated with the server |
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
