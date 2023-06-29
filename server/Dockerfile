@@ -12,6 +12,8 @@ ENV DB_NAME your_db_name
 ENV DB_USER your_db_user
 ENV DB_PASSWORD your_db_password
 
+#COPY --from=backend /app/backend /app/backend
+
 EXPOSE 8000
 
 CMD ["python", "server.py"]
